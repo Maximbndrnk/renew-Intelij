@@ -1,0 +1,6 @@
+1. Delete folder called 'eval' in the config-folder of intellij (on windows in C:/User/.IntellijIdea/config)
+
+2. Open file called options.xml in the same intellijidea-folder (C:/User/.IntellijIdea/options/options.xml). In here delete all lines with the string "evlsprt" in it. For example a line  '<property name="evlsprt3.181" value="12" />' should be deleted.
+
+3. Open regedit by typing regedit in the search-box and hitting enter. Navigate to HKEY_CURRENT_USER\Software\JavaSoft\Prefs\jetbrains\idea. Delete all keys that have evlsprt in their name.
+After that you can renew the evaluation-period when starting intellij again
